@@ -1,9 +1,13 @@
 #include<stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
 
 void main(){
 
     float m1,m2,m3,m4,m5,agg,perc;
-
+    
+        
+    
     printf("Enter the Science marks: \n");
     scanf("%f",&m1);
     printf("Enter the Maths marks: \n");
@@ -18,6 +22,7 @@ void main(){
     agg = (m1+m2+m3+m4+m5)/5;
     perc = (m1+m2+m3+m4+m5)/500 * 100;
     printf("The aggerate marks: %f\n",agg);
-    printf("The percentage obtained: %f",perc);
-
+    printf("The percentage obtained:\n %f",perc);
+    system("pause");
+    
 }

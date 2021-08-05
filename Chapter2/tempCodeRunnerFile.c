@@ -1,0 +1,1 @@
+printf("Number is: %d",x);
