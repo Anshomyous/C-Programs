@@ -3,22 +3,25 @@
 void main(){
 
     char x;
-    int a=0;
+    
 
     printf("Enter the value: ");
     scanf("%c",&x);
 
 
 
-    if(a>65 && a<90)
-    printf("Capital letter");
+    if(x>=65 && x<=90)
+    printf("Capital letter\n");
 
-    elif(a>97 && a<122)
-    printf("Lower letter");
+    else if(x>=97 && x<=122)
+    printf("Lower letter\n");
 
-    elif(a>48 && a<57)
-    printf("Number");
+    else if(x>=48 && x<=57)
+    printf("Number\n");
 
-    elif(a=90)
-    printf("Special characters");
+    else
+    printf("Special character\n");
+    system("pause");
+    
+    
 }

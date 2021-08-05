@@ -1,1 +1,1 @@
-printf("Number is: %d",x);
+l=day>30;
